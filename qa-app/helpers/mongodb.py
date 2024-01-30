@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://naveenjothi040:YkcqV6pFILK49jGd@cluster0.nhsrzi6.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://naveenjothi040:HZWYv831ExjQH1UY@cluster0.nhsrzi6.mongodb.net/?retryWrites=true&w=majority")
 
 DB_NAME = "langchain_db"
 COLLECTION_NAME = "test"

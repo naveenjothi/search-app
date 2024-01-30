@@ -26,8 +26,3 @@ vector_search = MongoDBAtlasVectorSearch.from_documents(
     collection=LANG_CHAIN_MONGODB_COLLECTION,
     index_name=ATLAS_VECTOR_SEARCH_INDEX_NAME,
 )
-
-question = "What is cheesemaking?"
-searchDocs = vector_search.similarity_search(question)
-
-print(searchDocs[0].page_content)
